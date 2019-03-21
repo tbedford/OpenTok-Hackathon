@@ -1,0 +1,49 @@
+body, html {
+    background-color: gray;
+    height: 100%;
+}
+
+#videos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subscriber {
+    position: absolute;
+    left: 10;
+    top: 10;
+    width: 80%;
+    height: 80%;
+    z-index: 10;
+    border: 6px solid blue;
+    border-radius: 6px;
+}
+
+#publisher {
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    top: 60px;
+    left: 30px;
+    z-index: 100;
+    border: 6px solid red;
+    border-radius: 6px;
+}
+
+#screen-preview {
+    position: absolute;
+    width: 720px;
+    height: 480px;
+    top: 60px;
+    right: 30px;
+    z-index: 120;
+    border: 6px solid greenyellow;
+    border-radius: 6px;
+}
+
+.topnavbar li {
+    display: inline;
+}
